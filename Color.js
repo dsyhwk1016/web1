@@ -22,7 +22,7 @@ function changeMode(self){
   if(self.value === 'night'){
     Body.setColor('white')
     Body.setBackgroundColor('black')
-    Links.setColor('powderblue')
+    Links.setColor('yellow')
     self.value = 'day'
   } else{
     Body.setColor('black')
